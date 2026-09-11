@@ -1,18 +1,19 @@
 {
   "name": "@oscarfalero/pi-opencode-go",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "OpenCode Go usage in pi status bar — rolling 5h / weekly / monthly + /go-usage + /go-status toggle",
   "keywords": ["pi-package", "opencode", "pi-extension", "go"],
   "license": "MIT",
   "author": "oscarfalero",
   "type": "module",
-  "files": ["extensions/", "README.md", "LICENSE"],
+  "files": ["extensions/", "assets/", "README.md", "LICENSE"],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/oscarfalero/pi-opencode-go.git"
   },
   "pi": {
-    "extensions": ["./extensions"]
+    "extensions": ["./extensions"],
+    "image": "https://raw.githubusercontent.com/oscarfalero/pi-opencode-go/main/assets/status-bar.png"
   },
   "peerDependencies": {
     "@earendil-works/pi-coding-agent": "*"

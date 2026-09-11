@@ -4,6 +4,16 @@ OpenCode Go usage in pi status bar — rolling 5h / weekly / monthly + `/go-usag
 
 Ultra-compact status bar indicator for your [OpenCode Go](https://opencode.ai) subscription, designed for [pi](https://github.com/earendil-works/pi-coding-agent) (the pi coding agent / TUI).
 
+## Screenshots
+
+Compact status bar indicator — `Go 12/34/56%` reads as rolling/weekly/monthly, shown only when an `opencode-go` model is active:
+
+![Compact status bar indicator](./assets/status-bar.png)
+
+Detailed `/go-usage` panel with reset countdowns:
+
+![The /go-usage command](./assets/go-usage.png)
+
 ## Install
 
 ### From npm via pi
